@@ -1,0 +1,81 @@
+#myInput {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 928px;
+    font-size: 16px;
+    padding: 12px 10px 12px 40px;
+    border: 1px solid #461D7C;
+    font-size: 12px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#myUL {
+    margin-left: -45px;
+}
+
+.artist {
+    width: 320px;
+    margin: 5px;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+}
+
+.collapsible {
+    background-color: #FFF;
+    color: #461D7C;
+    cursor: pointer;
+    padding: 18px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #461D7C;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+.collapsible:hover {
+    background-color: #461D7C;
+    color: #fff;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.active:after {
+    content: "\2212";
+    color: #461D7C;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.socialMedia {
+    height: 20px;
+    width: 100%;
+    background-color: #461D7C;
+    padding: 10px 0px 10px 20px;
+}
+
+.socialIcons {
+    margin-right: 20px;
+    float: left;
+}
+
+#sugarhill {
+    font-size: 9px;
+    width: 185px;
+    float: left;
+    position: relative;
+    top: -5px;
+}
